@@ -1,11 +1,11 @@
 .NavBar{
+    width: 99%;
 
     .Row_NavBar{
-        width: 1362px;
         height: 70px;
-        margin-top:20px;
-        border-radius: 10px;
-        background:rgb(135,206,250);
+        
+        
+        background:#6699FF;
         
         // margin-left: 5px;
         // margin-right: 5px;
@@ -23,18 +23,42 @@
             //     font-family: "Comic Sans MS", cursive, sans-serif;
             // }/
             .link-wrap {
-                .btn-link {
-                    margin-left: 50px;
-                    margin-top: 10px;
-                    font-weight: 500;
-                    font-size: 20px;
-                    background: #FFFF;
-                    font-family: "Comic Sans MS", cursive, sans-serif;
-                    border: 1px solid #000 ;
-                    .link{
-                    text-decoration: none;
-                    // color: #fff;
-                    }
+                // .btn-link {
+                //     margin-left: 50px;
+                //     margin-top: 10px;
+                //     font-weight: 500;
+                //     font-size: 20px;
+                //     background: #FFFF;
+                //     font-family: "Comic Sans MS", cursive, sans-serif;
+                //     border: 1px solid #000 ;
+                //     .link{
+                //     text-decoration: none;
+                //     list-style-type: none;
+                //     }
+                // }
+                .nav{
+                    ul li {
+                        float: left;
+                        list-style: none;
+                        margin-right: 1em; 
+                       }
+                       li a {
+                        color: #FFFF;
+                        text-decoration: none;
+                        float: left;
+                        font-size: 19px;
+                        padding: 18px;
+                      
+                        
+                        margin-left: 35px;
+                        border-left: 1px solid #FFFF ;
+                        border-right: 1px solid #FFFF;
+                        border-radius: 10px ;
+                       }
+                       li a:hover {
+                        color: #FFFF;
+                       }
+                        
                 }
             }
         }
